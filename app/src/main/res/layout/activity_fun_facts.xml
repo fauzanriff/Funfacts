@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.fauzanrifqy.funfacts.FunFactsActivity"
+    tools:context="com.fauzanrifqy.funfacts.activities.FunFactsActivity"
 
     android:id="@+id/realativeLayout"
 
@@ -29,12 +29,27 @@
         android:textSize="24sp"
         android:textColor="#ffffff"/>
 
-    <Button
-        android:id="@+id/showFact"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_show_fact"
-        android:layout_alignParentBottom="true"
-        android:textColor="#39add1"/>
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/showFact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_show_fact"
+            android:textColor="#39add1"/>
+
+        <Button
+            android:id="@+id/showAllFact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show All Fun Facts"
+            android:textColor="#39add1"
+            />
+
+    </LinearLayout>
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.fauzanrifqy.funfacts;
+package com.fauzanrifqy.funfacts.components;
 
 import java.util.Random;
 
@@ -28,6 +28,10 @@ public class FactsBook {
         int i = random.nextInt(mFacts.length);
         // return mFacts[i]
         return mFacts[i];
+    }
+
+    public String[] getAllFacts(){
+        return mFacts;
     }
 
 }

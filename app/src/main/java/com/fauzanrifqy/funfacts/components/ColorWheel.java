@@ -1,4 +1,4 @@
-package com.fauzanrifqy.funfacts;
+package com.fauzanrifqy.funfacts.components;
 
 import android.graphics.Color;
 import java.util.Random;
