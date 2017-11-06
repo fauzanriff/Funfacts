@@ -61,6 +61,7 @@ public class FunFactsActivity extends AppCompatActivity implements View.OnClickL
             ColorWheel colorWheel = new ColorWheel();
             relativeLayout.setBackgroundColor(colorWheel.getColor());
         }else if(view == btnAllFunFact){
+
             // Pindah halaman
             Intent intent = new Intent(getApplicationContext(), FactListActivity.class);
             startActivity(intent);

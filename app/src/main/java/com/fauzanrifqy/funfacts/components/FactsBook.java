@@ -26,10 +26,11 @@ public class FactsBook {
         // Random i
         Random random = new Random();
         int i = random.nextInt(mFacts.length);
-        // return mFacts[i]
+
         return mFacts[i];
     }
 
+    // Return all fact
     public String[] getAllFacts(){
         return mFacts;
     }

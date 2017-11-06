@@ -27,14 +27,15 @@ public class FactListActivity extends AppCompatActivity {
             // membuat text view
             TextView factView = new TextView(getApplicationContext());
 
+            // ubah style dari text view
             factView.setTextSize(18.0f);
             factView.setPadding(15, 15, 15, 15);
             factView.setBackgroundColor(Color.parseColor("#39add1"));
             factView.setTextColor(Color.parseColor("#ffffff"));
 
+            // ubah parameter layout
             LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             layoutParams.setMargins(0, 0, 0, 15);
-
             factView.setLayoutParams(layoutParams);
 
             // mengisi nilai textview dengan facts[i]
